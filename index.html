@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.scss">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +15,16 @@
 
 <body>
     <header>
-        <img class="header-logo" src="images/logo/ohmyfood.png" alt="Ohmyfood logo">
+        <nav>
+            <img class="header-logo" src="images/logo/ohmyfood.png" alt="Ohmyfood logo">
+            <div class="nav-bar-buttons">
+               <button> Menus</button>
+               <button> Order Online</button>
+               <button> Locations </button>
+               <button> About Us</button>
+            </div>
+        </nav>
+
         <p class="header-location"> Paris,Belleville</p>
         <h2 class="book">Book the menu you like</h2>
         <p class="discover"> Discover top-of-the-art resturants we picked for you</p>
@@ -24,6 +34,7 @@
     <section class="instruction-section">
         <div class="howitworks">
             <h3> How it works</h3>
+            <br>
             <button class="steps"> <p class="numbered-steps">1</p> <i class="fa fa-mobile" aria-hidden="true"></i><p>Chose a restaurant</p></button>
             <button class="steps"> <p class="numbered-steps">2</p> <i class="fa fa-list-ul" aria-hidden="true"></i> <p>Create your menu</p></button>
             <button class="steps"> <p class="numbered-steps">3</p> <i class="fa-solid fa-store"> aria-hidden="true"></i><p>Go enjoy it at the resturant</p></button>    
